@@ -1,0 +1,14 @@
+circe とは？
+https://circe.github.io/circe/
+
+
+A JSON library for Scala powered by Cats
+JSON for cats
+Argonaut という Purely Functional JSON in Scala のfork
+違いは
+・cats に依存 // 特にbuild.sbt でcats を指定していなくても入ってくる
+             // sbtがすごい ということかな
+
+・ Jawn: Jsonをパースしてくれるもの？
+・Shapeless: 型クラスと依存型をベースにしたScala用の汎用プログラミングライブラリ
+もつかっている？
